@@ -21,7 +21,7 @@ pipeline {
             }
         }            
 
-        stage('Run test 1') {
+        stage('Run test') {
             steps {            
                     bat 'dotnet test'           
                     }
